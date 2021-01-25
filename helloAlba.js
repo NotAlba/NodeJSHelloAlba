@@ -13,6 +13,7 @@ app.post('/resultado', function(req, res) {
     var nombre = req.body.nombre;
     var genero = req.body.gender;
     //res.send('<h1>Hello</h1> '+nombre);
+    //hola
     res.render('form', {nom: nombre, genere:genero});
 });
 
