@@ -2,7 +2,7 @@
   "name": "herokuapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "helloAlba.js",
   "scripts": {
     "start": "node helloAlba.js",
     "test": "echo \"Error: no test specified\" && exit 1"
