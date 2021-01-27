@@ -16,5 +16,5 @@ app.post('/resultado', function(req, res) {
     //hola
     res.render('form', {nom: nombre, genere:genero});
 });
-
-app.listen(4000, () => console.log('Example app listening on port 4000!'));
+app.listen(process.env.PORT || 5000)
+//app.listen(4000, () => console.log('Example app listening on port 4000!'));
